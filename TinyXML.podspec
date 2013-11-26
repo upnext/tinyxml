@@ -6,6 +6,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/upnext/tinyxml.git" }
   s.platform     = :ios
   s.source_files = "tiny*.{h,cpp}"
-  s.libraries    = 'c++'
+  s.libraries    = 'stdc++'
   s.exclude_files = "echo.cpp"
 end
